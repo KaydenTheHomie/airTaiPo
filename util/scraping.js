@@ -15,7 +15,7 @@ const fetchAqhi = function() {
       if (!error && response.statusCode == 200) {
         aqhi = $('.tblCurrAQHI_tr_15_0 > .tblCurrAQHI_tdBand')
           .text()
-          .charAt(6);
+          .charAt(5);
         res(aqhi);
       }
     });
